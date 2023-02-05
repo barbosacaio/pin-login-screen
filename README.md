@@ -13,4 +13,4 @@
 <a href="https://barbosacaio.github.io/pin-login-screen/" target="_blank">PIN Login Screen</a>
 
 ## System interface
-<img src="https://prnt.sc/5h61qIrjlUwc" alt="systemInterfaceExample">
+<img src="https://prnt.sc/5h61qIrjlUwc.png" alt="systemInterfaceExample">
