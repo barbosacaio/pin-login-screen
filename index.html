@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <title>PIN Login Screen</title>
+</head>
+<body>
+    <!-- Whole area of the PIN login screen -->
+    <div id="PIN">
+        <!-- Typed text area -->
+        <input type="number" id="PINInput" readonly>
+        <!-- All working buttons -->
+        <div id="buttons">
+            <div id="firstLine">
+                <button id="number1" onclick="writeNumber(1)">1</button>
+                <button id="number2" onclick="writeNumber(2)">2</button>
+                <button id="number3" onclick="writeNumber(3)">3</button>
+            </div>
+            <div id="secondLine">
+                <button id="number4" onclick="writeNumber(4)">4</button>
+                <button id="number5" onclick="writeNumber(5)">5</button>
+                <button id="number6" onclick="writeNumber(6)">6</button>
+            </div>
+            <div id="thirdLine">
+                <button id="number7" onclick="writeNumber(7)">7</button>
+                <button id="number8" onclick="writeNumber(8)">8</button>
+                <button id="number9" onclick="writeNumber(9)">9</button>
+            </div>
+            <div id="fourthLine">
+                <button id="delete" onclick="deleteNumbers()">DEL</button>
+                <button id="number0" onclick="writeNumber(0)">0</button>
+                <button id="newPassword" onclick="createPassword()">NEW</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
